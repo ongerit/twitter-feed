@@ -1,0 +1,8 @@
+
+<IfModule !php5_module>
+        <FilesMatch "\.php$">
+                Order Allow,Deny
+                Deny from all
+                Satisfy All
+        </FilesMatch>
+</IfModule>
